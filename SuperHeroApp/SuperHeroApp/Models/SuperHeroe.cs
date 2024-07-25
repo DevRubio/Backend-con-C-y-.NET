@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SuperHeroApp.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace SuperHeroApp.Models
 {
-    class SuperHeroe : Hero
+    class SuperHeroe : Hero, ISuperHero
     {
         private string _Nombre;
-        public int Id;
+        public int Id { get; set; } = 1;
         public override string Nombre
         { get
             {
@@ -28,7 +29,7 @@ namespace SuperHeroApp.Models
                 return $"{Nombre} ({IdentidadSecreta})";
             }
         }
-        public string IdentidadSecreta;
+        public string IdentidadSecreta { get; set; }
         public string Ciudad;
         public List<SuperPoder> SuperPoderes;
         public bool PuedeVolar;

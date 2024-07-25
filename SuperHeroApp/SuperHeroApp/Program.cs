@@ -47,7 +47,11 @@ poderesSuperman.Add(superFuerza);
 superman.SuperPoderes = poderesSuperman;
 string resultSuperPoderes = superman.UsarSuperPoderes();
 Console.WriteLine(resultSuperPoderes);
+string resultSAlvarMundo = superman.SalvarElMundo();
+Console.WriteLine(resultSAlvarMundo);
 
+string resultSalvarTierra = superman.SalvarLaTierra();
+Console.WriteLine(resultSalvarTierra);
 
 
 flash.Id = 2;

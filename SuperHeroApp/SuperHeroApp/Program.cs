@@ -18,7 +18,7 @@ var superman = new SuperHeroe();
 var flash = new SuperHeroe();
 
 superman.Id = 1;
-superman.Nombre = "Superman";
+superman.Nombre = "    Superman    ";
 superman.IdentidadSecreta = "Clark kent";
 superman.Ciudad = "Metropolis";
 superman.PuedeVolar = true;

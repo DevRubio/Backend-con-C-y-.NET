@@ -33,9 +33,15 @@
 //ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 
 //Count
-Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500Pag()}");
+//Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500Pag()}");
 //LongCount
-Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500PagLong()}");
+//Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500PagLong()}");
+
+//Min
+//Console.WriteLine($"Fecha de publicacion Menor {queries.FechaPublicacionMenor()}");
+
+//Max
+Console.WriteLine(queries.NumeroPaginasLibroMayor());
 
 
 void ImprimirValores(IEnumerable<Book> listadelibros)

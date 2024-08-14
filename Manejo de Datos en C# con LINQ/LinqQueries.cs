@@ -87,8 +87,19 @@ public class LinqQueries
         return librosCollection.Where(p => p.PageCount>=200 && p.PageCount <= 500).Count();
     }
 
-        public long CantiddLibros200y500PagLong()
+    public long CantiddLibros200y500PagLong()
     {
         return librosCollection.LongCount(p => p.PageCount>=200 && p.PageCount <= 500);
     }
+
+    public DateTime FechaPublicacionMenor()
+    {
+        return librosCollection.Min(p => p.PublishedDate);
+    }
+
+    public int NumeroPaginasLibroMayor()
+    {
+        return librosCollection.Max(p => p.PageCount);
+    }
+
 }

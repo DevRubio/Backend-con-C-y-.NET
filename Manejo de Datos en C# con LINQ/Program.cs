@@ -6,7 +6,13 @@
 //ImprimirValores(queries.LibrosDespuesdel2000());
 
 //Where And
-ImprimirValores(queries.LibrosConMAsde250PagConPalabraInAction());
+//ImprimirValores(queries.LibrosConMAsde250PagConPalabraInAction());
+
+//All
+//Console.WriteLine($"Todos los libros tienen Status?: {queries.TodosLosLibrosTienenStatus()}");
+
+//Any
+Console.WriteLine($"Algun Libro Fue Publicado En 2005?: {queries.AlgunLibroFuePublicadoEn2005()}");
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {

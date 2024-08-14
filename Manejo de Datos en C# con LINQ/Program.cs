@@ -21,7 +21,13 @@
 //ImprimirValores(queries.LibrosDeJavaPorNombreAscendente());
 
 //OrderByDescending
-ImprimirValores(queries.LibrosConMasDe450PaginasDesen());
+//ImprimirValores(queries.LibrosConMasDe450PaginasDesen());
+
+//Take
+//ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
+
+//Skip
+ImprimirValores(queries.TercerYCuartoLibroDeMas400Pag());
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {

@@ -27,7 +27,11 @@
 //ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
 
 //Skip
-ImprimirValores(queries.TercerYCuartoLibroDeMas400Pag());
+//ImprimirValores(queries.TercerYCuartoLibroDeMas400Pag());
+
+//filtroSelect
+ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {

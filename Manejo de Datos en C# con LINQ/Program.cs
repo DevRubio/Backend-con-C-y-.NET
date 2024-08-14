@@ -30,7 +30,12 @@
 //ImprimirValores(queries.TercerYCuartoLibroDeMas400Pag());
 
 //filtroSelect
-ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+//ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+
+//Count
+Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500Pag()}");
+//LongCount
+Console.WriteLine($"Cantida de Libros que tienen entre 200 y 500 Pahinas: {queries.CantiddLibros200y500PagLong()}");
 
 
 void ImprimirValores(IEnumerable<Book> listadelibros)

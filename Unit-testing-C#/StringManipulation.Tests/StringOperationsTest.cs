@@ -12,8 +12,11 @@ namespace StringManipulation.Tests
         [Fact]
         public void ConcatenateStrings()
         {
+            //Arrange
             var strOperation = new StringOperations();
+            //Act
             var result = strOperation.ConcatenateStrings("Hello", "World");
+            //Assert
             Assert.Equal("Hello World", result);
         }
     }

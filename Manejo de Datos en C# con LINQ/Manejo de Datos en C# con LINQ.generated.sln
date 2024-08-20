@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manejo de Datos en C# con LINQ", "Manejo de Datos en C# con LINQ.csproj", "{13BFF9E3-8F0B-49DC-A14D-F186ACE356D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manejo de Datos en C# con LINQ", "Manejo de Datos en C# con LINQ\Manejo de Datos en C# con LINQ.csproj", "{9B45323B-11BD-4093-842A-493A4893E9A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperHeroApp", "SuperHeroApp", "{241F6302-65D5-4A27-AA55-B31678292579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHeroApp", "SuperHeroApp\SuperHeroApp\SuperHeroApp.csproj", "{FF9E02E5-1764-4FBC-9A49-643EB4383449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit-testing-C#", "Unit-testing-C#", "{B153D9C1-694D-4EE0-B229-F1E5FE92422C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "Unit-testing-C#\StringManipulation\StringManipulation.csproj", "{FE0E7DC1-A92D-4189-B1B9-36579253A7DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +19,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13BFF9E3-8F0B-49DC-A14D-F186ACE356D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13BFF9E3-8F0B-49DC-A14D-F186ACE356D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13BFF9E3-8F0B-49DC-A14D-F186ACE356D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13BFF9E3-8F0B-49DC-A14D-F186ACE356D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B45323B-11BD-4093-842A-493A4893E9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B45323B-11BD-4093-842A-493A4893E9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B45323B-11BD-4093-842A-493A4893E9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B45323B-11BD-4093-842A-493A4893E9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9E02E5-1764-4FBC-9A49-643EB4383449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9E02E5-1764-4FBC-9A49-643EB4383449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9E02E5-1764-4FBC-9A49-643EB4383449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9E02E5-1764-4FBC-9A49-643EB4383449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0E7DC1-A92D-4189-B1B9-36579253A7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0E7DC1-A92D-4189-B1B9-36579253A7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0E7DC1-A92D-4189-B1B9-36579253A7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0E7DC1-A92D-4189-B1B9-36579253A7DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF9E02E5-1764-4FBC-9A49-643EB4383449} = {241F6302-65D5-4A27-AA55-B31678292579}
+		{FE0E7DC1-A92D-4189-B1B9-36579253A7DE} = {B153D9C1-694D-4EE0-B229-F1E5FE92422C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54B59716-A25F-4DEE-B373-FC6247C35B7A}

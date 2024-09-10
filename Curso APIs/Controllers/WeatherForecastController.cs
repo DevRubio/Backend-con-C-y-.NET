@@ -11,6 +11,7 @@ public class WeatherForecastController : ControllerBase
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
+//Se creo Iloger utilizando el tipo de datos WeatherForecastController, lo recibe dentro del constructor
     private readonly ILogger<WeatherForecastController> _logger;
 
     //Se crea lista statatica y se inicializa
@@ -41,6 +42,8 @@ public class WeatherForecastController : ControllerBase
     [Route("[action]")]
     public IEnumerable<WeatherForecast> Get()
     {
+        _logger.LogInformation("LogInformation: Retornadno la lista de WeatherForecast");
+        _logger.LogDebug("LogDebug: Retornadno la lista de WeatherForecast");
         return ListWeatherForecast;
     }
 

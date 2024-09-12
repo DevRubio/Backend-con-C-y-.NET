@@ -15,7 +15,13 @@ el inyector
 */
 //builder.Services.AddScoped<IHelloWordService, HelloworldService>();
 
-builder.Services.AddScoped<IHelloWordService>(p => new HelloworldService());
+//builder.Services.AddScoped<IHelloWordService>(p => new HelloworldService());
+//builder.Services.AddScoped<ILogerService, LoggerService>();
+//builder.Services.AddLogging();
+//builder.Services.AddTransient<IComponent, ExternalServiceComponet>();
+builder.Services.AddScoped<ILoggerService, LoggerService>();
+
+
 
 var app = builder.Build();
 

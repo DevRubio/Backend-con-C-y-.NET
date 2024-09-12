@@ -19,6 +19,8 @@ el inyector
 //builder.Services.AddScoped<ILogerService, LoggerService>();
 //builder.Services.AddLogging();
 //builder.Services.AddTransient<IComponent, ExternalServiceComponet>();
+//Configuracion ApplicationInsights
+builder.Services.AddApplicationInsightsTelemetry();
 builder.Services.AddScoped<ILoggerService, LoggerService>();
 
 

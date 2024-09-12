@@ -10,7 +10,7 @@ public class LoggerService : ILoggerService
 
     public void SaveException(LogException logException)
     {
-        _logger.LogError($"Componen: {logException.Component}, Error {logException.ErrorMessage}, Details: {logException.ErrorDetails}, {logException.Exception}");
+        _logger.LogError($"Component: {logException.Component}, Error {logException.ErrorMessage}, Details: {logException.ErrorDetails}, {logException.Exception}");
     }
 
     public void SaveTrace(LogTrace logTrace)
